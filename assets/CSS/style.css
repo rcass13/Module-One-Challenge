@@ -1,111 +1,120 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
-  }
+  font-family: 'Times New Roman', Times, serif;
+}
 
 header {
-    background-image: url(https://pin.it/4DO6Idv);
-    background-size: cover; 
-	background-position: center; 
+  background-image: url(https://pin.it/4DO6Idv);
+  background-size: cover; 
+background-position: center; 
+  background-color: #F9F9F0;
+  width: 100%;
 }
 
 footer {
-    background-image: url(https://pin.it/4DO6Idv);
-	background-size: cover; 
-	background-position: center; 
+  background-image: url(https://pin.it/4DO6Idv);
+background-size: cover; 
+background-position: center; 
+  background-color: #F9F9F0;
+  margin-right: 0px;
 }
 body {
-    background-color: blanchedalmond;
+  background-color: #EBB3A9;
+  margin: 0;
 }
-
-section {
-    width: 100%;
-    background-color: rgba(230, 140, 191, 0.361);
-    margin-left: 400 px;
-    margin-right: 400px;
-}
-
-
 
 ul {
-    text-align: left;
-    color: #ffffff;
+  text-align: left;
+  color: #F9F9F0;
+  line-height: 2;
+  top: 2;
 }
 
-/* List items in navigation bar */
 li {
-    display: block;
-    color: #0d5729;
-    font-size: 16px;
+  display: block;
+  font-size: 20px;
 }
-
-div
 
 img {
-    display: block;
-    width: 300px;
-    height:auto;
-    margin: 50px;
-    border: 30px solid #0d5729;
-    border-radius: 100px;
+  display: block;
+  width: 300px;
+  height:auto;
+  margin: 20px;
+  border: 30px solid #EE2677;
+  border-radius: 100px;
+  box-shadow: 0px 0px 20px hotpink;
 }
 
 .container{
-   display: flex;
-    direction: column;
-    align-items: center;
-    justify-content: center;
+ display: flex;
+  direction: column;
+  justify-content: center;
 }
+
 .sidenav{
-    height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 160px; /* Set the width of the sidebar */
-    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    left: 0;
-    background-color: rgba(230, 140, 191); 
-    color:blanchedalmond;
-  }
-  
-  .sidenav a:hover {
-    color:#e92f76;
-  }
+  width: 160px;
+  flex-grow: 1;
+  background-color:#E86252; 
+  color:#F9F9F0;
+}
+
+.sidenav a:hover {
+  color:#EE2677;
+}
+
 .pink{
-    background-color:  rgba(230, 140, 191, 0.361)6;
-    color:#e92f76;
-    padding:10px;
-    border-style: solid;
-    border-radius: 150 px;
+  background-color: #E87EA1;
+  padding:10px;
+  border: 5px, solid, #E86252;
+  border-radius: 15px;
+  box-shadow: 0px 0px 20px hotpink;
 }
 
 #Item1{
-    background-color: rgba(230, 140, 191, 0.361);
-    border: #0d5729;
-    border-width: 20px;
-    line-height: 1.5;
-    margin: 75px 300px;
-    padding: 30px;
+  background-color: #E87EA1;
+  border-radius: 15px;
+  border-width: 20px;
+  line-height: 1.5;
+  max-width: 400px;
+  padding: 20px;
 }
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    border: 1px solid; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-  }
-  
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color:#e92f76;
-  }
-  
-  
+  width: 100%; 
+  padding: 12px; 
+  border: 5px solid;
+  border-color:#E86252; 
+  border-radius: 4px; 
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  resize: none; 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #E86252;
+}
+
+/* hover color change */
+input[type=submit]:hover {
+  background-color:#EE2677;
+}
+
+form{
+  margin: 20px;
+}
+
+main {
+  display: flex;
+  margin-right: 0px;
+}
+
+.page {
+  flex-grow: 20;
+}
+
+.secret {
+  flex-grow: 1;
+}
